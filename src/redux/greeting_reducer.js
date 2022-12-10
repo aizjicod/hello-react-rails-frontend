@@ -4,7 +4,7 @@ import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 const FETCH_GREETING = 'hello_world_react/FETCH_GREETING';
 
 // API directory(URL)
-const apiUrl = 'http://localhost:3001/api/v1/greetings';
+const apiUrl = 'http://localhost:4000/api/v1/greetings';
 
 // Async function (Function Action Creator)
 const fetchGreetAsync = createAsyncThunk(
